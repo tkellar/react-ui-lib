@@ -7,24 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-ui-lib
+npm install --save @tkellar/react-ui-lib
 ```
-
-## Usage
-
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-ui-lib'
-import 'react-ui-lib/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
-
-## License
 
 MIT © [tkellar](https://github.com/tkellar)
