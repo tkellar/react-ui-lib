@@ -16,7 +16,7 @@ const BackgroundImage = (props) => {
   }
 
   return (
-    <div className='BackgroundImage' style={styles} imgSrc={imgSrc}>
+    <div className='BackgroundImage' style={styles}>
       <div style={{ height: '100%', width: '100%', ...overlayStyle }}>
         {children}
       </div>
